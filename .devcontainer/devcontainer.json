@@ -11,7 +11,7 @@
       "version": "3.12"
     }
   },
-  "postCreateCommand": "pipx install pre-commit && pipx install checkov",
+  "postCreateCommand": "pipx install pre-commit && pipx install checkov && cat .devcontainer/bashrc-additions.sh >> ~/.bashrc",
   "customizations": {
     "vscode": {
       "extensions": [

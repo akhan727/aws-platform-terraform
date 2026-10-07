@@ -48,3 +48,4 @@ terraform.rc
 __pycache__/
 .venv/
 .DS_Store
+.terminal-logs/
