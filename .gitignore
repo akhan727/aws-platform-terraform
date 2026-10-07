@@ -49,3 +49,10 @@ terraform.rc
 __pycache__/
 .venv/
 .DS_Store
+# Project additions
+*.tfvars
+!example.tfvars
+.env
+__pycache__/
+.venv/
+.DS_Store
