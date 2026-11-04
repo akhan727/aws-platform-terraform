@@ -5,3 +5,7 @@ output "topic_arn" {
 output "queue_urls" {
   value = { for k, q in aws_sqs_queue.main : k => q.url }
 }
+
+output "history_bucket" {
+  value = aws_s3_bucket.history.bucket
+}
